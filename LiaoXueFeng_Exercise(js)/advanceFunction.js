@@ -41,4 +41,6 @@ var normalize = function(s) {
 }
 console.log(normalize(["AdabD", "aDDKS", "ASDSDW"]))
 
-
+var array=[1,2,3,4,5]
+console.log(array.map(String))
+console.log(array.reduce(function(x,y){return x*10+y}))
